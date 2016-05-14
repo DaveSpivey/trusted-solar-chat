@@ -1,0 +1,140 @@
+/* @group Tabletheme */
+.Tabletheme {
+}
+.Tabletheme table {
+    border-width: 1px;
+    border-spacing: 0px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    background-color: white;
+}
+.Tabletheme thead th {
+    border-width: 1px;
+    padding: 5px;
+    border-style: inset;
+    border-color: black;
+    background-color: white;
+    -moz-border-radius: 0px 0px 0px 0px;
+}
+.Tabletheme tbody tr {
+}
+.Tabletheme tbody tr td {
+    border-width: 1px;
+    padding: 5px;
+    border-style: inset;
+    border-color: gray;
+    background-color: white;
+    -moz-border-radius: 0px 0px 0px 0px;
+}
+/* @end */
+/* @group menu1 */
+.menu1 {
+}
+.menu1 ul.root {
+}
+.menu1 ul li {
+}
+.menu1 ul li a,
+.menu1 ul li a:link,
+.menu1 ul li a:visited {
+}
+.menu1 ul li a:hover {
+}
+.menu1 ul li.menuitem-selected a {
+}
+.menu1 ul li.menuitem-selected a:hover {
+}
+/* @end */
+#content {
+}
+#faux_form {
+}
+.form-ut-cac {
+    width: 307px;
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    float: right;
+}
+.fun-frame-cac {
+    background: white;
+    border: 1px solid #e6e6e6;
+    color: #5c6670;
+    min-height: 970px;
+    padding: 23px;
+    width: 308px;
+    top: 60px;
+}
+.slide-left-cac {
+}
+/* @group Fieldtheme */
+.Fieldtheme {
+    font-family: Arial,Helvetica,sans-serif;
+}
+.Fieldtheme ul li {
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+}
+.Fieldtheme ul li .fieldlabel {
+    color: #4a4a56;
+    float: left;
+    width: 250px;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 22px;
+    text-align: right;
+    padding-right: 24px;
+}
+.Fieldtheme ul li .fieldinput {
+    float: left;
+    position: relative;
+}
+.Fieldtheme .bPageBlock,
+.Fieldtheme .requiredInput,
+.Fieldtheme .requiredBlock {
+    background-color: #cc0000;
+    bottom: 1px;
+    left: -4px;
+    position: absolute;
+    top: 1px;
+    width: 3px;
+}
+.Fieldtheme .error-message {
+    color: red;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 11px;
+}
+.Fieldtheme .success-message {
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 11px;
+}
+/* @end */
+.center-y-axis {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+/* @group menu2 */
+.menu2 {
+}
+.menu2 ul.root {
+}
+.menu2 ul li {
+}
+.menu2 ul li a,
+.menu2 ul li a:link,
+.menu2 ul li a:visited {
+}
+.menu2 ul li a:hover {
+}
+.menu2 ul li.menuitem-selected a {
+}
+.menu2 ul li.menuitem-selected a:hover {
+}
+/* @end */
+.center-me {
+}

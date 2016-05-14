@@ -1,0 +1,203 @@
+.rangeslider,
+.rangeslider__fill {
+    background: #fff;
+    display: block;
+    width: 100%;
+    -moz-box-shadow: inset 0px 1px 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0px 1px 3px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 1px 3px rgba(0,0,0,0.3);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    max-width: 380px;
+    height: 32px;
+    border-radius: 16px;
+}
+.rangeslider {
+    position: relative;
+    max-width: 380px;
+    height: 32px;
+    border-radius: 16px;
+}
+.rangeslider--disabled {
+    opacity: 0.4;
+}
+.rangeslider__fill {
+    background: #f26311;
+    position: absolute;
+    top: 0;
+    min-width: 7%;
+    max-width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.rangeslider__handle {
+    background: white;
+    border: 1px solid #fff;
+    cursor: pointer;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 7px;
+    background-size: 100%;
+    background-image: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.rangeslider__handle:after {
+    display: none;
+}
+.rangeslider__handle:active {
+    background-image: none;
+}
+input[type="range"]:focus+.rangeslider .rangeslider__handle {
+    -moz-box-shadow: 0 0 8px rgba(255,0,255,0.9);
+    -webkit-box-shadow: 0 0 8px rgba(255,0,255,0.9);
+    box-shadow: 0 0 8px rgba(255,0,255,0.9);
+}
+.cost-slider {
+    font-family: 'myriad-pro',arial,sans-serif;
+    max-width: 380px;
+    position: relative;
+    padding-top: 0;
+}
+.cost-slider .display {
+    line-height: 21px;
+    position: relative;
+    margin: 0px auto 30px;
+    height: 35px;
+    padding: 6px 20px;
+    background: none repeat scroll 0% 0% #f26311;
+    border-radius: 20px;
+    border: medium none;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.cost-slider .pointer {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 12px 11px 0;
+    border-color: #f26321 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-left: -15px;
+    bottom: -10px;
+    left: 14%;
+}
+.cost-slider .slider-value {
+    color: #333e48;
+    font-size: 1em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.step-1 .display,
+.step-1 .rangeslider__fill {
+    background: #dde1e9;
+}
+.step-1 .pointer {
+    border-color: #dde1e9 transparent;
+}
+.step-1 g {
+    fill: #dde1e9;
+}
+.step-2 .display,
+.step-2 .slider-value,
+.step-2 .rangeslider__fill {
+    background: #8c949b;
+    color: #fff;
+}
+.step-2 .pointer {
+    border-color: #8c949b transparent;
+    left: 26%;
+}
+.step-2 g {
+    fill: #8c949b;
+}
+.step-3 .display,
+.step-3 .slider-value,
+.step-3 .rangeslider__fill {
+    background: #96bbc3;
+}
+.step-3 .pointer {
+    border-color: #96bbc3 transparent;
+    left: 43.5%;
+}
+.step-3 g {
+    fill: #96bbc3;
+}
+.step-4 .display,
+.step-4 .slider-value,
+.step-4 .rangeslider__fill {
+    background: #ffa400;
+    color: #fff;
+}
+.step-4 .pointer {
+    border-color: #ffa400 transparent;
+    left: 61.5%;
+}
+.step-4 g {
+    fill: #ffa400;
+}
+.step-5 .display,
+.step-5 .slider-value,
+.step-5 .rangeslider__fill {
+    background: #ff7f00;
+    color: #fff;
+}
+.step-5 .pointer {
+    border-color: #ff7f00 transparent;
+    left: 80.5%;
+}
+.step-5 g {
+    fill: #ff7f00;
+}
+@media screen and (min-width: 40em) {
+    
+    .cost-slider {
+        padding-top: 37px;
+        margin: 0 auto;
+    }    
+    
+    .cost-slider .display {
+        line-height: 21px;
+        position: absolute;
+        top: -20px;
+        width: auto;
+        min-width: 180px;
+        height: 38px;
+        padding: 8px 20px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .step-1 .pointer {
+        left: 28%;
+    }     
+    
+    .step-2 .pointer {
+        left: 27%;
+    }    
+    
+    .step-3 .pointer {
+        left: 75.5%;
+    }
+
+    .step-4 .pointer {
+        left: 74.5%;
+    }
+
+    .step-5 .pointer {
+        left: 80.5%;
+    }    
+    
+}
