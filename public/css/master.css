@@ -34,6 +34,60 @@ body {
     color: #5c6670;
     line-height: 1.5;
 }
+
+#show-details {
+    border: solid white 3px;
+    position: fixed;
+    display: block;
+    bottom: 450px;
+    right: 20px;
+    display: none;
+}
+
+#customer-details {
+    position: fixed;
+    display: block;
+    background-color: #fff;
+    bottom: 140px;
+    right: 425px;
+    width: 500px;
+    height: 260px;
+    border: solid black 1px;
+    display: none;
+}
+
+#detail-close {
+    background-color: #bbb;
+    color: #fff;
+    display: inline-block;
+    float: right;
+}
+
+#detail-close:hover {
+    cursor: pointer;
+}
+
+#map-container {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    border: solid black 1px;
+    top: 1em;
+    width: 60%;
+    bottom: 1em;
+    left: 1em;
+    background: url(../images/house_screenshot.png);
+    background-size: cover;
+}
+
+#savings-detail {
+    display: inline-block;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    width: 25%;
+}
+
 article,
 aside,
 details,
@@ -2266,14 +2320,14 @@ a.underline {
 
 	.hero {
 		background-attachment: scroll; }
-	
+
 	.hero.video {
 		min-height: 360px;
-	}	
+	}
 
 	.hero section {
 		position: relative; }
-	
+
 	button,
 	input[type="submit"],
 	.button,
@@ -2281,56 +2335,56 @@ a.underline {
 	form.FormWidgettheme li input[type=button] {
 		padding: 1.125em 2.875em;
 	}
-    
+
     .thanks-numbers .how-it-works-number {
         left: -10%;
         bottom: auto;
         font-size: 4em;
         top: -22px;
-    }      
-	
+    }
+
 	.how-it-works svg {
 		width: 100%;
 		height: 145px;
 		margin-left: 1em;
-	}	
-	
+	}
+
 	.how-it-works .notepad svg {
 		width: 100%;
 		height: 80px;
-	}	
+	}
 
 	.faq.is-open p.question:before {
 		left: 6px;
 		top: 6px;
-	}	
-	
+	}
+
 	.margin {
 		padding: 0 1em;
-	}	
-	
+	}
+
 	.tabs-menu li {
 		width: 130px;
-	}	
-	
+	}
+
 	.board-of-directors .column.four {
 		width: 45%;
 		float: left;
 		margin-right: 4%;
 	}
-	
+
 	.state-anchors {
 		-webkit-column-count: 3;
 		-moz-column-count: 3;
 		column-count: 3;
-	}	
-	
+	}
+
 	.state img {
 		max-width: 40%;
-	}	
-	
+	}
+
 	/************** P+A.7 Area - Solar Basics ***************/
-	
+
 	.sun {
 		position: absolute;
 		padding: 0;
@@ -2338,14 +2392,14 @@ a.underline {
 		left: 50%;
 		margin-left: -400px;
 		-webkit-animation: rotateSun 18s linear infinite;
-		animation: rotateSun 18s linear infinite;	
-	}	
-	
+		animation: rotateSun 18s linear infinite;
+	}
+
 	.sun svg {
 		width: 200px;
 		height: 200px;
 	}
-	
+
 	.cloud {
 		background: url(/assets/img/clouds-1.png) -1200px 20px repeat-x;
 		background-size: contain;
@@ -2355,23 +2409,23 @@ a.underline {
 		left: 0px;
 		top: 160px;
 		-webkit-animation: moveClouds 120s linear infinite;
-		animation: moveClouds 120s linear infinite;	
+		animation: moveClouds 120s linear infinite;
 		z-index: 0;
 	}
 
 	.cloud2 {
 		background: url(/assets/img/clouds-2.png) -1200px 20px repeat-x;
 		-webkit-animation: moveClouds 180s linear infinite;
-		animation: moveClouds 180s linear infinite;	
+		animation: moveClouds 180s linear infinite;
 	}
-	
+
 }
 @media (min-width: 768px) {
-	
+
 	.tertiary section:first-of-type {
 		padding-top: 4em;
-	}	
-	
+	}
+
 	h1 {
 		font-size: 2.75em;
 	}
@@ -2382,47 +2436,47 @@ a.underline {
 	.sub-head, a.sub-head, p.sub-head, h2.sub-head, h3.sub-head, h4.sub-head {
 		font-size: 1.5em;
 	}
-	
+
 	.localized {
 		padding: 5.5em 0 0;
 	}
-	
+
 	.iquote-cta {
 		padding: 0;
 	}
-	
+
 	.iquote-cta h1 {
 		font-weight: 300;
 		padding: 0.75em 0 0;
-	}	
-	
+	}
+
 	.navigation-wrapper .mobile {
 		display: block;
 	}
-	
+
 	.navigation-wrapper .desktop {
 		display: none;
 	}
-	
+
 	header.navigation ul li {
 		padding: 0 0 0 .8em;
 	}
 	header.navigation ul li a {
 		font-size: .9375em;
-	}	
-	
+	}
+
 	/* solar basics */
 	.panel.desktop {
 		display: block;
 	}
-	
+
 	.panel.mobile {
 		display: none;
-	}	
-	
+	}
+
 	.solar-basics > .full.center {
 		padding-bottom: 4.5em;
-	}	
+	}
 
 	.house {
 		background-image: url(/assets/img/house-outline.v2.png);
@@ -2435,7 +2489,7 @@ a.underline {
 		background-size: 125%;
 		min-height: 10px;
 	}
-	
+
 	.panel img {
 		margin-left: -12.5%;
 		width: 125%;
@@ -2443,8 +2497,8 @@ a.underline {
 		z-index: 2;
 		max-width: 125%;
 		height: auto;
-	}	
-	
+	}
+
 	.svg-panel {
 		position: absolute;
 		left: 230px;
@@ -2453,14 +2507,14 @@ a.underline {
 		height: 100%;
 		margin-left: 0;
 	}
-	
+
 	.animation {
 		position: absolute;
 		top: 0;
 		left: 0;
 		z-index: 3;
 	}
-	
+
 	.flag2 .animation {
 		width: 15px;
 		height: 31px;
@@ -2470,7 +2524,7 @@ a.underline {
 		left: -115px;
 		z-index: 99;
 	}
-	
+
 	.flag3 .animation {
 		width: 77px;
 		height: 14px;
@@ -2480,7 +2534,7 @@ a.underline {
 		left: -146px;
 		z-index: 99;
 	}
-	
+
 	.flag4 .animation {
 		width: 163px;
 		height: 106px;
@@ -2489,8 +2543,8 @@ a.underline {
 		top: -152px;
 		right: -480px;
 		z-index: 99;
-	}	
-	
+	}
+
 	.flag5 .animation {
 		width: 73px;
 		height: 21px;
@@ -2499,59 +2553,59 @@ a.underline {
 		top: -122px;
 		right: -706px;
 		z-index: 99;
-	}	
-	
-	@-webkit-keyframes rotateSun { 
+	}
+
+	@-webkit-keyframes rotateSun {
 		100% { -webkit-transform: rotate(360deg);}
 	}
-	@keyframes rotateSun { 
+	@keyframes rotateSun {
 		100% { -webkit-transform: rotate(360deg); transform: rotate(360deg);}
 	}
 
-	@-webkit-keyframes moveClouds { 
+	@-webkit-keyframes moveClouds {
 	 	from { background-position: -2000px 0; }
         to { background-position: 2000px 0; }
 	}
-	@keyframes moveClouds { 
+	@keyframes moveClouds {
 	 	from { background-position: -2000px 0; }
         to { background-position: 2000px 0; }
 	}
-	
+
 	.sun-facts .column.four {
 		height: 390px;
 		margin-right: .975%;
 		width: 32.65%;
 		padding: 2.5em 2em;
 	}
-	
+
 	.sun-facts .column.break {
 		margin-right: 0;
-	}	
-	
+	}
+
 	.sun-facts .cool-grey {
 		padding: 1.5em 4em;
 		margin-bottom: .675em;
-	}	
-	
+	}
+
 	span.success-message.open {
 		display: block;
 	}
-	
+
 	.mobile {
 		display: none; }
 
 	.desktop {
-		display: block; }	
-	
+		display: block; }
+
 	 #footer {
 		text-align: left; }
 
 	 #footer h2 {
-		margin: 0 0 .625em 0; }	
-    
+		margin: 0 0 .625em 0; }
+
     a.phone, #footer a.phone {
         color: #5c6670;
-    }    
+    }
 
 	.column, .content {
 		float: left;
@@ -2559,11 +2613,11 @@ a.underline {
 		margin-top: 0;
 		margin-right: 3.74426%;
 		width: 100%; }
-	
+
 	.reverse .column {
 		float: right;
 	}
-	
+
   .column.two, .content.two {
     margin-right: 3.74426%;
     width: 13.54645%; }
@@ -2618,35 +2672,35 @@ a.underline {
   .board-of-directors .column.four.break {
     	margin-right: 0;
   }
-	
+
 	.column.center-me,
 	.column.center-me:last-child {
 		float: none;
 		margin: 0 auto;
 	}
-	
+
 	.maps .column.four  {
 		margin-right: 0;
-		width: 39.48251%; 
+		width: 39.48251%;
 	}
 
 	.maps .column.eight {
 		margin-right: 3.74426%;
-		width: 56.77322%; 
-	}	
-	
+		width: 56.77322%;
+	}
+
 	.btm-padding, .padding-btm {
 		padding-bottom: 2em;
-	}	
-	
+	}
+
 	.column.btm-padding {
 		padding-bottom: 3.25em;
 	}
-	
+
 	.fader-sibling.btm-padding {
 		padding-bottom: 8.25em;
 	}
-	
+
 	.column.four .dark {
 		color: #333e48;
 		text-align: left;
@@ -2664,7 +2718,7 @@ a.underline {
 		text-align: left;
 		padding-bottom: 1.25em;
 	}
-	
+
 	.dark .border {
 		border-color: #5c6670;
 	}
@@ -2683,11 +2737,11 @@ a.underline {
 		overflow: hidden;
 		text-align: left;
 	}
-	
+
 	.column3.padding-btm {
 		padding-bottom: 2em;
 	}
-	
+
 .icon-column .border h2 {
   margin-top: 200px;
 }
@@ -2701,13 +2755,13 @@ a.underline {
   left: 50%;
   margin-left: -124px;
     max-width: 200px;
-}    
-    
+}
+
   .right {
     float: right; }
 
   .left, .reverse .left {
-    float: left; }	
+    float: left; }
 
 
 	.localized {
@@ -2715,7 +2769,7 @@ a.underline {
 		position: relative;
 		background-image: none;
 		height: 290px;
-	}	
+	}
 
 	.localized .iquote-cta {
 		left: -13px;
@@ -2731,11 +2785,11 @@ a.underline {
 
   .localized .column.four {
     position: relative; }
-	
+
 	.localized .seven {
 		max-width: 100%;
 		margin-right: 0;
-	}	
+	}
 
   img.iquote-bg {
     max-width: 800px;
@@ -2743,24 +2797,24 @@ a.underline {
     top: -32px;
     left: -250px;
     width: 800px;
-    height: 500px; } 
-	
+    height: 500px; }
+
 	.fader {
 		height: 420px;
 		position: relative;
 	}
-	
+
 	.fader {
 		position: absolute;
 		left: -20%;
 		bottom: 0;
 		width: 68%;
-	}	
-	
-	.fader.installers {
-		bottom: -4.5em;	
 	}
-	
+
+	.fader.installers {
+		bottom: -4.5em;
+	}
+
 	.fader p {
 		color: inherit;
 		position: absolute;
@@ -2774,17 +2828,17 @@ a.underline {
 		bottom: 0;
 		left: 0;
 		max-width: 100%;
-	}	
+	}
 
 	.float-quote {
 		padding: 0;
 		height: 53px;
 	}
-	
+
     .float-quote.business {
         height: 53px;
-    }    
-    
+    }
+
 	.float-quote.fixed {
 		position: fixed;
 		z-index: 6;
@@ -2794,8 +2848,8 @@ a.underline {
 		display: inline-block;
 		padding-top: .4em;
 		vertical-align: top;
-	}	
-	
+	}
+
 	.float-quote h1 {
 		font-size: 1.5em;
 		height: 47px;
@@ -2806,22 +2860,22 @@ a.underline {
 .float-quote.business h1 {
     font-size: 1.25em;
     line-height: 49px;
-}    
-	
+}
+
 	.float-quote input {
 		vertical-align: text-top;
-	}	
-	
+	}
+
 	.float-quote button {
 		vertical-align: text-top;
 		font-size: 0.75em;
 		padding: .85em 1em;
 	}
-	
+
 	.svgburst {
 		display: block;
 	}
-	
+
 	.localized svg g {
 		opacity: 0;
 		-webkit-animation: fadeinUno 6s infinite;
@@ -2858,39 +2912,39 @@ a.underline {
 		-webkit-animation-delay: 2.5s;
 		animation-delay: 2.5s;
 	}
-	@-webkit-keyframes fadeinUno { 
+	@-webkit-keyframes fadeinUno {
 			50% { opacity: .225;}
 		}
-	@keyframes fadeinUno { 
+	@keyframes fadeinUno {
 			50% { opacity: .225;}
 		}
-	@-webkit-keyframes fadeMed { 
+	@-webkit-keyframes fadeMed {
 			50% { opacity: .15;}
 		}
-	@keyframes fadeMed { 
+	@keyframes fadeMed {
 			50% { opacity: .15;}
 		}
-	@-webkit-keyframes fadeAlmost { 
+	@-webkit-keyframes fadeAlmost {
 			50% { opacity: .075;}
 		}
-	@keyframes fadeAlmost { 
+	@keyframes fadeAlmost {
 			50% { opacity: .075;}
 		}
-	
+
 	/************** T+M.1 MODULES - Hero ***************/
 
 	.hero {
 		min-height: 500px;
 	}
-	
+
 	.hero, .hero:not(.home-page) {
 		text-align: inherit;
 	}
 
 	.hero:not(.home-page) h1 {
 		margin-bottom: 0;
-	}	
-	
+	}
+
 	.home-page.hero h1:after {
 		content: '';
 		display: block;
@@ -2899,25 +2953,25 @@ a.underline {
 		height: 30px;
 		margin: 0 auto -30px;
 		background-position: 0px -25px;
-	}	
-	
+	}
+
 	.no-min {
 		min-height: 1px;
 	}
-	
+
 	.hero .absolute {
 		padding: 5em 0 5em;
 		width: 100%;
 	}
-	
+
 	.hero .absolute .column.ten {
 		width: 90%;
 	}
-	
+
 	.secondary .absolute {
 		padding-bottom: 16%;
 	}
-	
+
 	.hero.home h2 {
 		font-family: 'museo-sans',arial,sans-serif;
 		color: #ff4612;
@@ -2926,38 +2980,38 @@ a.underline {
 	.hero.home h1, .hero.home p {
 		color: #FFFFFF;
 	}
-	
+
 	.hero.savings h1, .hero.sun-diff h1 {
 		color: #5c6670;
 	}
 
 	.hero.savings h2 {
 		color: #0abee1;
-	}	
-	
+	}
+
 	.how-it-works-number {
 		left: -90px;
 		bottom: -55px;
 		font-size: 8em;
 	}
-	
+
 	.thanks-numbers .how-it-works {
 		max-width: 60%;
 		padding: 0 0 2em 0;
 		margin: 0 auto;
-	}	
+	}
     .thanks-numbers .how-it-works h1 {
         padding-top: 0;
         font-size: 3.125em;
-    } 
-    
+    }
+
 	.thanks-numbers .how-it-works-number {
 		left: -20%;
 		bottom: auto;
 		font-size: 8em;
 		top: -40px;
-	}     
-	
+	}
+
 	.state-anchors {
 		-webkit-column-count: 4;
 		-moz-column-count: 4;
@@ -2965,72 +3019,72 @@ a.underline {
 	}
 	.state img {
 		max-width: 100%;
-	}	
-	
+	}
+
 	.tab-content {
 		padding-top: 4em;
 	}
-	
+
 	.news-items {
 		padding-bottom: 4em;
 	}
-	
+
 	.thanks {
 		font-size: 100%;
-	}	
-	
+	}
+
 	.our-icon {
 		margin: .25em auto 1.125em;
-	}	
-	
+	}
+
 	/*///////// HEROES ////////////*/
 	.hero.home-page .absolute {
 		padding: 20.5% 0 14.5%;
 	}
-	
+
 	.hero.sun-diff .absolute {
 		padding: 2% 0 31.75%;
 	}
-	
+
 	.hero.savings .absolute {
 		padding: 1% 0 26.5%;
 	}
-	
+
 	/* comrade */
 	.hero.leftalign {
 		background-position: right bottom;
 	}
 	.hero.about-us .absolute {
 		padding: 5em 0 20%;
-	}	
-	
+	}
+
 	.hero.solar-careers .absolute {
 		padding: 5em 0 20%;
-	}	
-	
+	}
+
 	.hero.sunshine-network .absolute {
 		padding: 5em 0 20%;
 	}
-	
+
 	.hero.solar-installers .absolute {
 		padding: 5em 0 26%;
-	}	
+	}
 
 	.hero.for-customers .absolute {
 		padding: 5em 0 28%;
-	}	
-	
+	}
+
 	.slide-toggle .close {
 		background-position: -190px -148px;
 		right: 4em;
 		width: 40px;
 		height: 40px;
-	}	
-	
+	}
+
 	.slide-toggle .close {
 		top: 3em;
-	}	
-	
+	}
+
 }
 @media (min-width: 880px) {
 	/* larger headers */
@@ -3050,60 +3104,60 @@ a.underline {
 	h2.x-large, h3.x-large, h4.x-large {
 		font-size: 1.125em;
 	}
-	
+
 	.hero .absolute .column.ten {
 		width: 75%;
-	}	
-	
+	}
+
 	.hero.home-page .absolute {
 		padding: 19.5% 0 17.5%;
-	}	
-	
+	}
+
 	img.bottom-image, img.bottom-image.app {
 		right: 0;
 		max-width: 38%;
 	}
-	
+
 	img.bottom-image.power {
 		right: 0;
 		max-width: 44%;
-	}	
-	
+	}
+
 	.fader {
 		position: absolute;
 		left: -8%;
 		bottom: 0;
 		width: 56%;
-	}	
-	
+	}
+
 	.fader.installers {
 		bottom: -4.5em;
 		width: 48%;
 	}
-	
+
 	.float-quote h1 {
 		font-size: 1.75em;
 		height: 47px;
 		line-height: 49px;
 		padding: 0;
-	}	
-	
+	}
+
   .maps .column.four {
     margin-right: 0;
     width: 30.83716%; }
 
   .maps .column.eight {
     margin-right: 3.74426%;
-    width: 65.41858%; }	
-	
+    width: 65.41858%; }
+
 	.state-anchors {
 		-webkit-column-count: 5;
 		-moz-column-count: 5;
 		column-count: 5;
-	}	
-	
+	}
+
 	/************** T+A.7 Area - Solar Basics ***************/
-	
+
 	.sun {
 		position: absolute;
 		padding: 0;
@@ -3111,14 +3165,14 @@ a.underline {
 		left: 50%;
 		margin-left: -500px;
 		-webkit-animation: rotateSun 18s linear infinite;
-		animation: rotateSun 18s linear infinite;	
-	}	
-	
+		animation: rotateSun 18s linear infinite;
+	}
+
 	.sun svg {
 		width: 350px;
 		height: 350px;
-	}	
-	
+	}
+
 	.house-bg:before {
 		content: "";
 		display: block;
@@ -3129,7 +3183,7 @@ a.underline {
 		left: -50%;
 		height: 600px;
 		z-index: 0;
-	}	
+	}
 
 	.house-bg:after {
 		content: "";
@@ -3142,7 +3196,7 @@ a.underline {
 		height: 300px;
 		z-index: 0;
 	}
-	
+
 	.house {
 		background-position: center top;
 		background-size: cover;
@@ -3153,19 +3207,19 @@ a.underline {
 		width: 100%;
 		max-width: 100%;
 	}
-	
+
 	.panel-text {
 		max-width: 56%;
 	}
-	
+
 	.flag1 .panel-text {
 		max-width: 52%;
-	}	
-	
+	}
+
 	.flag4 .panel-text {
 		max-width: 45%;
 	}
-	
+
 	.panel-text p {
 		line-height: 1.4;
 	}
@@ -3173,7 +3227,7 @@ a.underline {
 	.panel-text h2 {
 		font-size: 1.6em;
 		margin-bottom: .125em;
-	}	
+	}
 
 }
 @media (max-width: 1000px) {
@@ -3182,7 +3236,7 @@ a.underline {
 		margin: 0 auto;
 		width: 100%;
 	}
-	
+
 	.tablet-nocol.column {
 		clear: both;
 		float: none;
@@ -3190,7 +3244,7 @@ a.underline {
 		width: 100%;
 		max-width: 100%;
 	}
-	
+
 	.tablet-nocol .desktop {
 		display: none;
 	}
@@ -3205,40 +3259,40 @@ a.underline {
 		width: 100%;
 		text-align: center;
 	}
-	
+
 	.breakdown .desktop {
 		display: none;
-	}	
+	}
 }
 @media (min-width: 1025px) {
 
 	.navigation-wrapper .mobile {
 		display: none;
 	}
-	
+
 	.navigation-wrapper .desktop {
 		display: block;
 	}
-	
+
 	.navigation .left {
 		float: left;
-	}	
-	
+	}
+
   nav ul li {
     display: inline-block;
     margin-right: 20px; }
-	
+
 	header.navigation ul {
 		height: 48px;
-	}	
+	}
 
   	header.navigation ul li a {
     	border: none; }
-	
+
 	header.navigation .navigation-wrapper {
 		padding: 0 1em;
 	}
-	
+
 	header.navigation .navigation-wrapper .button {
 		opacity: 1;
 		transition: opacity .25s;
@@ -3246,7 +3300,7 @@ a.underline {
 	}
 	header.navigation.open .navigation-wrapper .button {
 		opacity: 0;
-	}	
+	}
 
   header.navigation.open .login-menu.desktop {
     height: 61px;
@@ -3258,9 +3312,9 @@ a.underline {
   header.navigation .login-menu .margin {
     height: 61.33333px;
     line-height: 61.33333px; }
-	
+
 	header.navigation .logo-holder {
-		min-width: 140px;	
+		min-width: 140px;
 		margin-top: 0;
 	}
 
@@ -3282,7 +3336,7 @@ a.underline {
 
   header.navigation ul li a {
     padding-right: .5em; }
-	
+
 	header.navigation ul li a:after {
 		content: "";
 		display: block;
@@ -3299,12 +3353,12 @@ a.underline {
 	}
 
 	header.navigation ul li:hover a {
-		text-decoration: none;	
+		text-decoration: none;
 	}
 	header.navigation ul li:hover a:after,
     .business header.navigation ul li:hover a:after {
 		background: #96bbc3;
-	}	
+	}
 	header.navigation ul li.menuitem-selected a:hover {
 		text-decoration: none;
 	}
@@ -3319,27 +3373,27 @@ a.underline {
   header.navigation .login-menu .margin .button {
     position: relative;
     top: -6px; }
-	
+
 	header.navigation .navigation-wrapper {
 		background: transparent;
-	}	
+	}
 
 	#header .column.logo-holder {
 		width: 100%;
 		width: 13.54645%;
 	}
-	
-	
+
+
 	.hero.home-page .absolute {
 		padding: 17% 0 17%;
-	}		
-	
+	}
+
 	.owl-buttons {
 		display: block;
-	}	
-	
+	}
+
 	/************** D+A.7 Area - Solar Basics ***************/
-	
+
 	.sun {
 		position: absolute;
 		padding: 0;
@@ -3347,7 +3401,7 @@ a.underline {
 		left: 50%;
 		margin-left: -600px;
 		-webkit-animation: rotateSun 18s linear infinite;
-		animation: rotateSun 18s linear infinite;	
+		animation: rotateSun 18s linear infinite;
 	}
 
 	.cloud {
@@ -3359,20 +3413,20 @@ a.underline {
 		left: 0px;
 		top: 160px;
 		-webkit-animation: moveClouds 120s linear infinite;
-		animation: moveClouds 120s linear infinite;	
+		animation: moveClouds 120s linear infinite;
 		z-index: 0;
 	}
 
 	.cloud2 {
 		background: url(/assets/img/clouds-2.png) -1200px 20px repeat-x;
 		-webkit-animation: moveClouds 180s linear infinite;
-		animation: moveClouds 180s linear infinite;	
+		animation: moveClouds 180s linear infinite;
 	}
-	
+
 	.sun-facts .column.four {
 		height: 370px;
 		padding: 2.5em 4em;
-	}	
+	}
 }
 /* @group funnel */
 iframe#funnel-frame {
@@ -3383,13 +3437,13 @@ iframe#funnel-frame {
     height: 845px;
     width: 135%;
 }
-@media screen and (max-width:  988px) {  
+@media screen and (max-width:  988px) {
 	iframe#funnel-frame  {
                   height: 1085px;
                   width: 100%;
     }
 }
-@media screen and (max-width:  388px) {  
+@media screen and (max-width:  388px) {
 	iframe#funnel-frame  {
                   height: 1130px;
     }
