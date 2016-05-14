@@ -1,0 +1,82 @@
+.owl-dots {
+    margin-top: 20px;
+    text-align: center;
+}
+.owl-nav div {
+    color: #fff;
+    display: inline-block;
+    zoom: 1;
+    margin: 5px;
+    padding: 0;
+    font-size: 12px;
+    width: 52px;
+    height: 75px;
+    border-radius: 0;
+    position: absolute;
+    top: 40%;
+    left: 1em;
+    background: url("../../../img/icons1x.png") no-repeat;
+    background-position: -300px 0;
+    border: none;
+    cursor: pointer;
+}
+.owl-nav div.owl-next {
+    left: auto;
+    right: 1em;
+    background-position: -240px 0;
+}
+.tertiary .owl-nav div,
+.light-grey .owl-nav div {
+    background-position: -300px -72px;
+}
+.tertiary .owl-nav div.owl-next,
+.light-grey .owl-nav div.owl-next {
+    background-position: -240px -72px;
+}
+.owl-controls.clickable .owl-nav div:hover {
+    filter: Alpha(Opacity=100);
+    opacity: 1;
+    text-decoration: none;
+}
+.owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.owl-dots span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50);
+    opacity: 0.5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #869791;
+}
+.owl-dot.active span,
+.owl-controls.clickable .owl-dots:hover span {
+    filter: Alpha(Opacity=100);
+    background: #f26322;
+    opacity: 1;
+}
+.owl-controls.clickable .owl-dots:hover span {
+    filter: Alpha(Opacity=100);
+    background: #869791;
+    opacity: 1;
+}
+.owl-page span.owl-numbers {
+    height: auto;
+    width: auto;
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 12px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.owl-item.loading {
+    min-height: 150px;
+    background: url(AjaxLoader.gif) no-repeat center center;
+}
