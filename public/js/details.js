@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  console.log("GOT HERE")
 
   $('#show-details').click(showDetails);
   $('#detail-close').click(closeDetails);
@@ -11,7 +10,7 @@ var size = "5kW"
 
 setTimeout(function(){
   $('#show-details').show();
-}, 4000)
+}, 20000)
 
 function showDetails() {
   $('#show-details').hide();
