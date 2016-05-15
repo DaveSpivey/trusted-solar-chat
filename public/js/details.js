@@ -10,7 +10,7 @@ var size = "5kW"
 
 setTimeout(function(){
   $('#show-details').show();
-}, 20000)
+}, 50000)
 
 function showDetails() {
   $('#show-details').hide();
