@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  console.log("GOT HERE")
 
   $('#show-details').click(showDetails);
   $('#detail-close').click(closeDetails);
