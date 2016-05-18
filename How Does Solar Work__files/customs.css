@@ -1,0 +1,66 @@
+/**
+ # mega_woote - Mega Woote Template for Joomla! 1.6
+ # author 		OmegaTheme.com
+ # copyright 	Copyright(C) 2011 - OmegaTheme.com. All Rights Reserved.
+ # @license 	http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 	http://omegatheme.com
+ # Technical support: Forum - http://omegatheme.com/forum/
+**/
+/**------------------------------------------------------------------------
+ * file: custom.css 1.6.0 00001, April 2011 12:00:00Z OmegaTheme $
+ * package:	Mega Woote Template
+ *------------------------------------------------------------------------*/
+.item-page p img,
+.blog .items-row p img,
+.joomla .blog .item p img {
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.right_footer .social {
+	float: right;
+}
+
+.joomla .blog .item {
+	float: left;
+}
+
+/*Style for Slide show*/
+#megaslidenav {
+	z-index: 9;
+}
+
+.left_megaslider {
+	background: url(../images/left-nav-slider.png) no-repeat left center;
+	height: 37px;
+	float: left;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+.right_megaslider {
+	background: url(../images/right-nav-slider.png) no-repeat right 0;
+	width: 6px;
+	height: 37px;
+	overflow: hidden;
+	margin: 0px;
+ 	padding: 0px;
+ 	float: left;
+}
+
+#megaslidenav .left_megaslider a {
+	background: url(../images/nav-slider.jpg) no-repeat left center;
+	width: 16px;
+	height: 16px;
+	float: left;
+	overflow: hidden;
+	text-indent: 999px;
+	margin-top: 11px;
+	margin-right: 3px;
+}
+
+#megaslidenav .left_megaslider a.activeSlide {	
+	/*background: #41A317;*/
+	background: url(../images/nav-slider-active-orange.png) no-repeat left center;
+}

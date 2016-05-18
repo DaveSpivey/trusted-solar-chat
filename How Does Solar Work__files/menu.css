@@ -1,0 +1,261 @@
+/**
+
+ # mega_woote - Mega Woote Template for Joomla! 1.6
+
+ # author 		OmegaTheme.com
+
+ # copyright 	Copyright(C) 2011 - OmegaTheme.com. All Rights Reserved.
+
+ # @license 	http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+
+ # Website: 	http://omegatheme.com
+
+ # Technical support: Forum - http://omegatheme.com/forum/
+
+**/
+
+/**------------------------------------------------------------------------
+
+ * file: menu.css 1.6.0 00001, April 2011 12:00:00Z OmegaTheme $
+
+ * package:	Mega Woote Template
+
+ *------------------------------------------------------------------------*/ 
+
+#main_menu {
+
+	width: 980px;
+	
+	float: right;
+	
+	margin-top: 30px;	
+
+	background: url(../images/green_nav.png) repeat-x;}
+
+}
+
+
+#mega_menu {
+
+	float: right;	
+	/*width: 980px;*/
+	
+}
+
+
+
+#mega_menu ul.menu{
+
+	float: left;
+
+	margin: 0px;
+
+	padding: 0px;
+
+}
+
+
+
+#mega_menu ul.menu li{
+
+	list-style-type: none;
+
+	float: left;
+
+	position: relative;
+
+	z-index: 999;
+
+	cursor: pointer;
+
+	display: block;
+
+	margin-left: 0px;
+
+}
+
+
+/*default 1st level*/
+#mega_menu ul.menu li a{
+
+	text-decoration: none;
+
+	text-transform: none;
+
+	color: #FFF;
+
+	font-size: 14px;
+
+	height: 36px;
+	
+	border-right: 1px solid #000;		
+
+	line-height: 36px;
+
+	padding: 0;
+	
+	display: block;
+
+}
+
+
+
+#mega_menu ul.menu li a span {
+
+	padding: 0 10px 0;
+	display: block;	
+
+}
+#mega_menu ul.menu li.parent a span {
+	padding-bottom: 26px;
+}
+
+
+#mega_menu ul.menu li.last a {
+
+	border-right: none;
+
+}
+
+
+
+#mega_menu ul.menu li.first a {
+
+	border-left: none;
+
+}
+
+
+
+#mega_menu ul.menu li a.level1:hover,
+
+/* Hover-Active 1st Level */
+#mega_menu ul.menu li#current a.level1{
+
+	/*background: url(../images/leftmenu-item.jpg) no-repeat left center;*/
+	color: #FFF;
+	background: #83A828;
+
+}
+
+
+
+#mega_menu ul.menu li a.level1:hover span,
+
+/* Hover-Active 1st Level Background*/
+#mega_menu ul.menu li#current a.level1 span{
+
+	/*background: url(../images/rightmenu-item.jpg) no-repeat right 0;*/
+	/*background: #83A828;*/
+
+}
+
+
+
+/*Level 2*/
+
+#mega_menu ul.menu ul{
+
+	position: absolute;
+
+	z-index: 999;
+
+	width: 200px;
+	border-right: none;		
+
+	margin-top: 0px; /* FC Edit */
+
+}
+
+
+
+#mega_menu ul.menu ul li{
+
+	float: left;
+
+	width: 180px;
+	
+	border-right: none;		
+	border-bottom: 1px solid #83A828; /* FC Edit */
+	
+	/*background: #FFF url(../images/navfade1.png) repeat-x left bottom;*/ /* FC Edit */
+	background: #000000;
+	padding: 0 10px;
+
+	margin: 0px;
+
+}
+
+
+/*2nd+ Level Default Font Color*/
+#mega_menu ul.menu ul li a{
+
+	display: block;
+
+	height: 32px;
+
+	line-height: 32px;
+
+	text-align: left;
+
+	color: #FFF;
+
+	padding: 0px;
+
+	margin: 0px;
+	border-right: none;
+	text-transform: none;
+
+	font-size: 12px;
+
+}
+
+
+
+#mega_menu ul.menu ul li a span {
+
+	display: block;
+
+	padding: 0px;
+
+}
+
+
+
+#mega_menu ul.menu ul li.first a {
+	border-top: none;
+
+}
+
+
+
+#mega_menu ul.menu ul li.last a {
+
+	border-bottom: none;
+
+}
+
+
+/*2nd+ Level Hover Font Color*/
+#mega_menu ul.menu li.level1 li.level2.sfhover a.level2,
+
+#mega_menu ul.menu li.level1 li#current a.level2,
+
+#mega_menu ul.menu li.level1 li.level2 li.level3.sfhover a,
+
+#mega_menu ul.menu li.level1 li.level2 li#current a {
+
+	color: #83A828;
+	border-right: none;
+}
+
+
+
+/*Level 3*/
+
+#mega_menu ul.menu ul ul{
+
+	margin: -32px 0px 0px 200px;
+	width: 200px;
+
+}

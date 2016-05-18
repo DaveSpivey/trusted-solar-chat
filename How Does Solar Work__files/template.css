@@ -1,0 +1,354 @@
+/**
+ # mega_woote - Mega Woote Template for Joomla! 1.6
+ # author 		OmegaTheme.com
+ # copyright 	Copyright(C) 2011 - OmegaTheme.com. All Rights Reserved.
+ # @license 	http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 	http://omegatheme.com
+ # Technical support: Forum - http://omegatheme.com/forum/
+**/
+/**------------------------------------------------------------------------
+ * file: template.css 1.6.0 00001, April 2011 12:00:00Z OmegaTheme $
+ * package:	Mega Woote Template
+ *------------------------------------------------------------------------*/
+ 
+*{
+	margin:0;
+	padding:0;
+}
+
+/*+++++++++++ @group Joomla Elements ++++++++++*/
+.mega-wrap-page{
+	overflow: hidden;
+}
+.blog-featured{
+	
+}
+.items-leading{
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+h1.mega-title,
+.items-leading h2.mega-title{
+	color: #272727;
+  font-size: 18px;
+  line-height: normal;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  text-transform: none;
+}
+.items-leading h2.mega-title a{
+	color: #272727;
+}
+.items-leading h2.mega-title a:hover{
+	color: #B62B00;
+}
+.items-row{
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+}
+.items-row .item{
+	float: left;
+}
+.items-row .item h2.mega-title{
+	color: #272727;
+    font-size: 18px;
+    line-height: normal;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-transform: none;
+}
+.items-row .item h2.mega-title a{
+	color: #272727;
+}
+.items-row .item h2.mega-title a:hover{
+	color: #fd5909;
+}
+
+/* Style for two column */
+.cols-2 .item{
+	width: 48%;
+}
+.cols-2 .column-2{
+	float: right;
+}
+
+/* Style for three column */
+.cols-3 .item{
+	width: 32%;
+	overflow: hidden;
+}
+.cols-3 .column-1{
+	
+}
+.cols-3 .column-2{
+	margin-left: 2%;
+}
+.cols-3 .column-3{
+	float: right;
+}
+
+/* Style for four column */
+.cols-4 .item{
+	width: 23%;
+	overflow: hidden;
+}
+.cols-4 .column-1{
+	
+}
+.cols-4 .column-2{
+	margin-left: 3%;
+}
+.cols-4 .column-3{
+	margin-left: 2%;
+}
+.cols-4 .column-4{
+	float: right;
+}
+
+/* Style for article view */
+.item-page{
+	
+}
+.item-page h2.mega-title{
+	color: #272727;
+    font-size: 18px;
+    line-height: normal;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-transform: none;
+}
+.items-more h3{
+	font-size: 13px;
+}
+.mega-wrap-page ul,
+.mega-wrap-page ol{
+	padding-left: 10px;
+}
+.mega-wrap-page ul li,
+.mega-wrap-page ol li{
+	width: 98%;
+	float: left;
+	background: url(../images/dot.jpg) no-repeat 0 10px;
+	list-style: none;
+	padding: 5px 0 5px 10px;
+}
+ul.actions,
+dl.article-info{
+	width: 100%;
+	float: left;
+	padding-bottom: 5px;
+}
+ul.actions li{
+	float: left;
+	margin-right: 5px;
+	list-style: none;
+}
+dl.article-info dd.published{
+	font-size: 11px;
+	color: #999;
+}
+dd.createdby{
+	font-size: 11px;
+	color: #666;
+}
+/* Style for Category list page */
+.category-list{
+	
+}
+.categories-list ul{
+	padding-left: 10px;
+}
+.categories-list ul li{
+	background: url(../images/dot.jpg) no-repeat 0 10px;
+	width: 98%;
+	float: left;
+	list-style: none;
+	padding: 5px 0 5px 10px;
+}
+.cat-items{
+	
+}
+.display-limit{
+	padding-bottom: 10px;
+}
+table.category tr.cat-list-row1 td{
+	background: #EEE;
+}
+/* End */
+ul.pagenav{
+	overflow: hidden;
+    padding-top: 15px;
+    text-align: center;
+}
+.item-page ul.pagenav li{
+	background: none repeat scroll 0 0 transparent;
+    display: inline;
+    float: none;
+    margin: 0 2px;
+    width: auto;
+}
+/* Style page counter */
+.pagination{
+	float: left;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.pagination ul li{
+	display: inline;
+	margin: 0 5px;
+	text-align: center;
+}
+.pagination p.counter{
+	padding-bottom: 10px;
+}
+.pagination a.pagenav,
+.pagination span.pagenav{
+	height: 25px;
+	padding: 3px 8px;
+	border: 1px #ccc solid;
+	line-height: 25px;
+}
+.pagination span.pagenav{
+	background: #FFF;
+}
+.pagination a.pagenav{
+	background: #e0dcdb;
+}
+
+/* Readmore */
+p.readmore{
+	float: right;
+    line-height: 1;
+    margin-top: 8px;
+    text-align: right;
+}
+p.readmore a,
+p a.readmore{
+  background: none repeat scroll 0 0 #EDEDED;
+  color: #fd5909;
+  display: block;
+  height: 22px;
+  overflow: hidden;
+  line-height: 20px;
+  text-align: center;
+  width: 80px;
+  padding: 0px 5px;
+}
+/* ++++++++++++++++++++ article-count +++++++++++++++++ */
+dl.article-count{
+	float: left;
+    margin: 5px 0;
+    width: 100%;
+}
+dl.article-count dt{
+	float: left;
+	margin-right: 10px;
+}
+dl.article-count dd{
+	
+}
+/* +++++++++++++++++++++ Style for contact form ++++++++++ */
+div.contact h2{
+	border-bottom: 1px solid #C8C8C8;
+	margin-bottom: 8px;
+    padding-bottom: 5px;
+}
+div.contact-form-custom{
+ 	width: 73%;
+ 	float: left;
+ }
+ div.contact-links-custom{
+ 	width: 25%;
+ 	float: right;
+ }
+
+div.contact div.contact-links,
+div.contact div.contact-miscinfo{
+	width: 100%;
+	float: right;
+}
+.contact-slider{
+	
+}
+.contact-slider .panel{
+	
+}
+.contact-form{
+	
+}
+h2 span.contact-name{
+    color: #8C5C00;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: normal;
+    
+}
+.contact-form .contact-email{
+	
+}
+.contact-form .contact-email div,
+.contact-form .contact-email div label,
+.contact-form .contact-email div input,
+.contact-form .contact-email div textarea{
+	width: 80%;
+	float: left;
+	margin-bottom: 8px;
+}
+.contact-form .contact-email div button{
+	float: left;
+}
+.contact-form .contact-email div input#contact-email-copy{
+	width: auto;
+	float: left;
+}
+/* Custom style for breadcrumbs mod */
+.breadcrumbs{
+	
+}
+.breadcrumbs img{
+	padding-top: 2px;
+}
+/* Style for Login form */
+.login {
+	line-height: 40px;
+}
+.login .login-fields label,
+.login .login-fields input{
+	
+}
+.login fieldset{
+	padding: 10px;
+}
+form#login-form{
+	text-align: left;
+}
+form#login-form input#modlgn-username,
+form#login-form input#modlgn-passwd{
+	width: 160px;
+	overflow: hidden;
+}
+fieldset.userdata{
+	border: none;
+}
+fieldset.userdata p{
+	padding: 5px 0;
+}
+form#member-registration{
+	
+}
+form#member-registration fieldset{
+	border: none;
+	line-height: 25px;
+}
+/* Custom style for joomla search */
+.search{
+	float: right;
+	line-height: 25px;
+	padding: 2px 0 3px 5px;
+	right: 0;
+	text-align: left;
+	position: relative;
+}
+/* End */
