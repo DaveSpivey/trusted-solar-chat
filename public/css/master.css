@@ -54,6 +54,7 @@ body {
     height: 260px;
     border: solid black 1px;
     display: none;
+    z-index: 10;
 }
 
 #detail-close {
